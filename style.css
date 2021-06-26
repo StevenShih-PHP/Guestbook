@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.form{
+    font-family: "微軟正黑體";
+    font-weight: 600;
+    border:.25em solid black;
+
+    width: 25em;
+    height: 10em;
+    margin:0 auto;
+    padding: 1.25em;
+    background-color: rgb(83, 193, 197);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    font-size: 1.2em;
+}
+input{
+    outline: none;
+    border:1px solid orchid;
+    border-radius: 1em;
+    height: 1.75em;
+}
+
+textarea{
+    outline: none;
+    border:1px solid orchid;
+    border-radius: 1em;
+}
+
+.control{
+    font-size: 24px;
+}
+.home{
+    width: 300px;
+    margin:0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    border: .25em solid darkgreen;
+    background-color: lightgreen;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0 auto;
+    display: block;
+}
+
+input:hover{
+    background-color: palevioletred;
+    color:white;
+}
+
+a:hover{
+    background-color: darkgreen;
+    color:white;
+}
