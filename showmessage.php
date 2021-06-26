@@ -15,7 +15,7 @@
             echo "<h2>目前沒有任何留言！</h2><hr/>";
         }
         else{
-            readfile($file);
+            readfile($file);            //讀取文件內容，成功→印出所有字符，失敗→回傳false
         }
     ?>
 
